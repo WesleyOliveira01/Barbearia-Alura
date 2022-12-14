@@ -125,7 +125,7 @@ input {
 article {
   padding: 1.5em;
   margin: 5% auto;
-  width: 70%;
+  width: 90%;
   border-radius: 16px;
 }
 article h1 {
@@ -140,4 +140,7 @@ article h1 {
 .sobre img {
   width: 60%;
   border-radius: 10px;
+}
+.sobre div{
+  margin-left: 1.5em;
 }
