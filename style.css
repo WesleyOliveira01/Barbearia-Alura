@@ -1,121 +1,143 @@
-:root{
-    --cor1:#04151F;
-    --cor2:#FBFBFF;
-    --cor3:#366b66;
+:root {
+  --cor1: #04151f;
+  --cor2: #fbfbff;
+  --cor3: #366b66;
 }
 
 /*====== CABEÇALHO =========*/
 
-#cabecalho{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 1.2em;
-    background-color: var(--cor1);
-    color: var(--cor2);
+#cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2em;
+  background-color: var(--cor1);
+  color: var(--cor2);
 }
 
-#cabecalho img{
-    margin: 10%;
-    width: 50%;
+#cabecalho img {
+  margin: 10%;
+  width: 50%;
 }
-#cabecalho li{
-    list-style: none;
-    padding: 2em;
+#cabecalho li {
+  list-style: none;
+  padding: 2em;
 }
-.menu > ul{
-    display: flex;
-}
-
-.menu a{
-    text-decoration: none;
-    color: var(--cor2);
-    text-transform: uppercase;
-    font-weight: bold;
+.menu > ul {
+  display: flex;
 }
 
-.menu a:hover{
-    text-decoration: underline;
-    color: var(--cor3) ;
-    transition: 0.5s;
+.menu a {
+  text-decoration: none;
+  color: var(--cor2);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+  color: var(--cor3);
+  transition: 0.5s;
 }
 
 /* ============= PRODUTOS =============*/
 
-#produtos{
-    display: flex;
-    justify-content: space-around;
-    margin: 10% auto;
-    padding: 0 20%;
+#produtos {
+  display: flex;
+  justify-content: space-around;
+  margin: 10% auto;
+  padding: 0 20%;
 }
-#produtos  h2, h3{
-    text-transform: uppercase;
-    font-weight: bold;
+#produtos h2,
+h3 {
+  text-transform: uppercase;
+  font-weight: bold;
 }
-.produtos{
-    border: 1px solid var(--cor1);
-    border-radius: 3%;
-    padding: 1.5em;
-    text-align: center;
-    width: 30%;
-    margin: 5%;
-}
-
-.produtos:hover{
-    border-color: var(--cor3) ;
-    transition: 0.5s;
-    box-shadow: 2px 7px 14px 2px #00000049;
+.produtos {
+  border: 1px solid var(--cor1);
+  border-radius: 3%;
+  padding: 1.5em;
+  text-align: center;
+  width: 30%;
+  margin: 5%;
 }
 
-.produtos:hover h2{
-    font-size: 25px;
-    transition: 0.8s;
-    
+.produtos:hover {
+  border-color: var(--cor3);
+  transition: 0.5s;
+  box-shadow: 2px 7px 14px 2px #00000049;
+}
+
+.produtos:hover h2 {
+  font-size: 25px;
+  transition: 0.8s;
 }
 
 /*============== FOOTER =================*/
 
-footer{
-    background-image: url(IMG/bg.jpg);
-    padding: 1em 2.5em;
-    font-weight: bold;
-    display: flex;
-    color: var(--cor2);
-    align-items: center;
+footer {
+  background-image: url(IMG/bg.jpg);
+  padding: 1em 2.5em;
+  font-weight: bold;
+  display: flex;
+  color: var(--cor2);
+  align-items: center;
 }
 
-footer li{
-    padding: 2.5em;
+footer li {
+  padding: 2.5em;
 }
 
-footer a{
-    text-decoration: none;
-    color: var(--cor2);
+footer a {
+  text-decoration: none;
+  color: var(--cor2);
 }
 
 /*============= Formulario ===============*/
 
-.formulario{
-    margin: 10% auto;
-    width: 30%;
-    align-items: center;
-    border: 1px solid var(--cor3);
-    padding: 1.5em;
-    border-radius: 0.5em;
+.formulario {
+  margin: 10% auto;
+  width: 30%;
+  align-items: center;
+  border: 1px solid var(--cor3);
+  padding: 1.5em;
+  border-radius: 0.5em;
 }
-.formulario form>label,input{
-    display: block;
+.formulario form > label,
+input {
+  display: block;
 }
-.formulario label{
-    margin-top: 1em;
-}
-
-
-.formulario input[type="submit"]{
-    margin-top: 1em;
-    width: 25%;
+.formulario label {
+  margin-top: 1em;
 }
 
-.formulario input{
-    width: 70%;
+.formulario input[type="submit"] {
+  margin-top: 1em;
+  width: 25%;
+}
+
+.formulario input {
+  width: 70%;
+}
+
+/* ============ sobre ============= */
+
+article {
+  padding: 1.5em;
+  margin: 5% auto;
+  width: 70%;
+  border-radius: 16px;
+}
+article h1 {
+  font-size: 2em;
+  margin: 1em 0;
+  font-weight: bold;
+}
+.sobre {
+  display: flex;
+}
+
+.sobre img {
+  width: 60%;
+  border-radius: 10px;
 }
