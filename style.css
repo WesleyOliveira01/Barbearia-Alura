@@ -66,6 +66,7 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  opacity: 0.9;
 }
 
 /* ============= PRODUTOS =============*/
@@ -111,6 +112,8 @@ footer {
   color: var(--cor2);
   align-items: center;
   justify-content: space-between;
+  margin-top: 0.5em;
+  bottom: 0;
 }
 
 footer li {
@@ -207,7 +210,6 @@ thead {
   font-weight: bold;
   margin-bottom: 3%;
   padding: 1.5%;
-  
 }
 article h1 {
   font-size: 2em;
