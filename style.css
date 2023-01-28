@@ -252,3 +252,8 @@ article h1 {
   scale: 1.1;
   transition: 0.5s;
 }
+
+.video{
+  text-align: center;
+  margin-bottom: 5rem;
+}
